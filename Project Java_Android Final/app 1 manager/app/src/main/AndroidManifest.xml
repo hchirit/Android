@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nathanmsika.my_navigation_drawer">
+
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_directions_car_black_24dp"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.nathanmsika.Android5778_6244_8742_01.controllers.SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nathanmsika.Android5778_6244_8742_01.controllers.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="com.example.nathanmsika.Android5778_6244_8742_01.controllers.Activity_menu"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="com.example.nathanmsika.Android5778_6244_8742_01.controllers.Activity_Lists"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="com.example.nathanmsika.Android5778_6244_8742_01.controllers.AddClient"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="com.example.nathanmsika.Android5778_6244_8742_01.controllers.Addcar"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="com.example.nathanmsika.Android5778_6244_8742_01.controllers.AddModel"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="com.example.nathanmsika.Android5778_6244_8742_01.controllers.Addbranch"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <provider
+            android:name="com.example.nathanmsika.Android5778_6244_8742_01.model.backend.AcademyContentProvider"
+            android:authorities="com.example.nathanmsika.Android5778_6244_8742_01"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name="com.example.nathanmsika.Android5778_6244_8742_01.controllers.Activity_delete"
+            android:label="@string/title_activity_delete"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

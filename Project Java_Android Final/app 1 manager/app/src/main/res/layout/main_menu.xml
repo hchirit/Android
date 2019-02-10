@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/menu">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_alignTop="@+id/linearLayout7"
+        android:layout_toLeftOf="@+id/linearLayout7"
+        android:layout_toStartOf="@+id/linearLayout7"
+        android:id="@+id/linearLayout8">
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#544e4e"
+            android:text="Cars "
+            android:textColor="#b2edf2"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#544e4e"
+            android:text="Models"
+            android:textColor="#b2edf2"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#544e4e"
+            android:text="branches"
+            android:textColor="#b2edf2"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clients"
+            android:background="#544e4e"
+            android:textColor="#b2edf2"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout7"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="91dp">
+
+        <Button
+            android:id="@+id/button_add_car"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#544e4e"
+            android:text="Cars"
+            android:textColor="#b2edf2"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button_add_model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#544e4e"
+            android:text="Models"
+            android:textColor="#b2edf2"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button_add_branch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#544e4e"
+            android:text="branches"
+            android:textColor="#b2edf2"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button_add_client"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#544e4e"
+            android:text="Clients"
+            android:textColor="#b2edf2"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:textAllCaps="false"
+        android:textSize="55sp"
+        android:layout_marginTop="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout8"
+        android:layout_alignLeft="@+id/linearLayout8"
+        android:layout_alignStart="@+id/linearLayout8"
+        android:layout_marginBottom="20dp"
+        android:text="List"
+        android:textColor="#b2edf2"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="#000000"
+        android:layout_alignRight="@+id/linearLayout8"
+        android:layout_alignEnd="@+id/linearLayout8" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/linearLayout7"
+        android:layout_alignLeft="@+id/linearLayout7"
+        android:layout_alignRight="@+id/linearLayout7"
+        android:layout_alignStart="@+id/linearLayout7"
+        android:layout_alignTop="@+id/textView7"
+        android:text="Add"
+        android:textColor="#b2edf2"
+        android:background="#000000"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+</RelativeLayout>

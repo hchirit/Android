@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\nathanmsika\.android\build-cache\84344bfe4ba8b9d23a9d687eb530f6a8aa5791c6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="C:\Users\nathanmsika\Desktop\targuil_java\My_navigation_drawer\app\build\intermediates\pre-dexed\debug\classes_2f2ef89fcf7bd6f9990d3550f3f91aeeef898f1a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\nathanmsika\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.0\7ff0e000d1e27e356567f56c92af3b8ab912636f\picasso-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7ff0e000d1e27e356567f56c92af3b8ab912636f">
+        <dex dex="C:\Users\nathanmsika\Desktop\targuil_java\My_navigation_drawer\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.0_e1f7a998786504d5642261e25e10d0d1fac07027\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\nathanmsika\Desktop\targuil_java\My_navigation_drawer\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\nathanmsika\Desktop\targuil_java\My_navigation_drawer\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_949f81392a0aff4bc9dd50c6fe82fcc167e4ebc4\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nathanmsika\.android\build-cache\e44f199ad5df92ddc765621b22603fda614e6034\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="C:\Users\nathanmsika\Desktop\targuil_java\My_navigation_drawer\app\build\intermediates\pre-dexed\debug\classes_501c17546b60653fadcc145fa28d4b4cc9c839d9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\nathanmsika\Desktop\targuil_java\My_navigation_drawer\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ff99f2d908a7499d6a7d245b82db0f4015e3500e">
+        <dex dex="C:\Users\nathanmsika\Desktop\targuil_java\My_navigation_drawer\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_81a77c493928c9161f7215d9e13e055ebbfcd3bf\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nathanmsika\.android\build-cache\07a6a9342771dbf223d02e6676c7231cece3d95c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="C:\Users\nathanmsika\Desktop\targuil_java\My_navigation_drawer\app\build\intermediates\pre-dexed\debug\classes_285cca929f3e092b67f3218e8741aa8aa09d7b17.jar" />
+    </item>
+
+</items>
